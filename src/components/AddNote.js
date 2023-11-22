@@ -41,11 +41,11 @@ const AddNote = (props) => {
               value={note.title}
             />
           </div>
-          <div className="mb-3">
-            <label htmlFor="description" className="form-label">
+          <div className="mb-3 " >
+            <label htmlFor="description" className="form-labe">
               Description
             </label>
-            <input
+            <textarea
               type="text"
               className="form-control"
               id="description"
@@ -54,6 +54,8 @@ const AddNote = (props) => {
               minLength={5}
               required
               value={note.description}
+  
+              style={{height:100}}
             />
           </div>
           <div className="mb-3">

@@ -54,8 +54,9 @@ const AddNote = (props) => {
               minLength={5}
               required
               value={note.description}
+              rows={'auto'}
   
-              style={{height:100}}
+              style={{height:150}}
             />
           </div>
           <div className="mb-3">

@@ -1,5 +1,5 @@
 
-# 📰INoteBook - your iCloud notes
+# 📓INoteBook - your iCloud notes
 
 The "INoteBook" project aims to develop a user-friendly notes website that allows users to efficiently organize and access their notes.
 

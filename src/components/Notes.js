@@ -110,7 +110,7 @@ const Notes = (props) => {
                     value={note.edescription}
                     type="text"
                     className="form-control"
-                    id="edescription"
+                    id="edescription" 
                     name="edescription"
                     onChange={onChange}
                     minLength={5}
